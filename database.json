@@ -1,0 +1,122 @@
+{
+    "colonies": [
+        {
+            "id": 1,
+            "designation": "Earth",
+            "population": 7200.13
+        },
+        {
+            "id": 2,
+            "designation": "Moon",
+            "population": 0.69
+        },
+        {
+            "id": 3,
+            "designation": "Titan",
+            "population": 0.27
+        },
+        {
+            "id": 4,
+            "designation": "Mars",
+            "population": 14.34
+        }
+    ],
+    "governors": [
+        {
+            "email": "me@me.com",
+            "name": "Steve",
+            "colonyId": 1,
+            "id": 2
+        }
+    ],
+    "colonySupplyTypes": [
+        {
+            "id": 1,
+            "supplyTypeId": 2,
+            "colonyId": 1
+        },
+        {
+            "id": 1,
+            "supplyTypeId": 5,
+            "colonyId": 2
+        },
+        {
+            "id": 1,
+            "supplyTypeId": 3,
+            "colonyId": 3
+        },
+        {
+            "id": 1,
+            "supplyTypeId": 1,
+            "colonyId": 4
+        },
+        {
+            "id": 1,
+            "supplyTypeId": 3,
+            "colonyId": 1
+        },
+        {
+            "id": 1,
+            "supplyTypeId": 2,
+            "colonyId": 2
+        }
+    ],
+    "supplyTypes": [
+        {
+            "id": 1,
+            "type": "Gas"
+        },
+        {
+            "id": 2,
+            "type": "Metal"
+        },
+        {
+            "id": 3,
+            "type": "Food"
+        },
+        {
+            "id": 4,
+            "type": "Textile"
+        },
+        {
+            "id": 5,
+            "type": "Mineral"
+        }
+    ],
+    "messages": [],
+    "newsBroadcasts": [
+        {
+            "id": 1,
+            "event": "Perferendis in adipisci quos sint quia. Aperiam dignissimos enim voluptatem et asperiores eos dolor quidem deserunt. Voluptas pariatur aspernatur consequatur et fugiat ea. Consectetur aut expedita animi quidem.",
+            "date": "Fri Apr 23 2021 05:13:44 GMT-0500 (Central Daylight Time)",
+            "colonyId": 2
+        },
+        {
+            "id": 2,
+            "event": "Quae sed voluptates et ut. Suscipit suscipit commodi cumque fuga. Sint tempora beatae sit ducimus hic dolorem. Error dignissimos minus vitae tempore molestiae dolorem.",
+            "date": "Wed May 12 2021 05:22:02 GMT-0500 (Central Daylight Time)",
+            "colonyId": 1
+        },
+        {
+            "id": 3,
+            "event": "Delectus in ut quos libero similique ad aut voluptatem voluptatum. Odit est ipsa. Consequatur nemo provident. Nesciunt enim quos.",
+            "date": "Tue Dec 15 2020 00:30:08 GMT-0600 (Central Standard Time)",
+            "colonyId": 4
+        },
+        {
+            "id": 4,
+            "event": "Occaecati sit sed quis dolor qui at. Libero et reprehenderit id qui. Est voluptatem vitae enim harum alias est voluptatem. Quo corporis quo tempore asperiores praesentium.",
+            "date": "Wed Mar 10 2021 12:14:25 GMT-0600 (Central Standard Time)",
+            "colonyId": 4
+        }
+    ],
+    "supplies": [
+        {
+            "id": 1,
+            "supplyTypeId": 2,
+            "supply": "Steel sheets",
+            "producedBy": 1,
+            "boughtBy": 4
+        }
+    ]
+}
